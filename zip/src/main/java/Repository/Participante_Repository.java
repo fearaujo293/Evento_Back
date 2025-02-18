@@ -1,9 +1,10 @@
 package Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import Services.Participante;
-
-public interface Participante_Repository extends JpaRepository<Participante, Long>  {
+import Entidades.Participante_Domain;
+@Repository
+public interface Participante_Repository extends JpaRepository<Participante_Domain, Long>  {
 
 }

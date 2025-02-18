@@ -3,7 +3,8 @@ package Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import Entidades.Horário_Domain;
-
+import Entidades.Categoria_Domain;
 @Repository
-public interface Horario_Repository extends JpaRepository<Horário_Domain, Long> {}
+public interface Categoria_Repository extends JpaRepository <Categoria_Domain, Long>{
+
+}
